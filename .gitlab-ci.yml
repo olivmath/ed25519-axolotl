@@ -1,9 +1,0 @@
-image: rust
-
-stages:
-    - test
-
-Tests:
-    stage: test
-    script:
-        - cargo test
